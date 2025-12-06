@@ -31,9 +31,9 @@ Begin by installing the library via your preferred package manager, then follow 
 
 ---
 
-## Add Function
+## Add Function ( Simple code )
 
-### Check ID Channel ( Simple code )
+### Check ID Channel
 Get ID channel 
 
 ```javascript
@@ -44,7 +44,7 @@ await sock.newsletterId(url)
 You can see the status of blocked numbers here 
 
 ```javascript
-await sock.checkStatusWA(number)
+await sock.checkWhatsApp(jid)
 ```
 
 ---
